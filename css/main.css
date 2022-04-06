@@ -1,0 +1,66 @@
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "map info shows social"
+}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "article1"
+    "article2"
+    "article3"
+    "article4"
+}
+
+#article1{
+    grid-area: article1;
+}
+
+#article2{
+    grid-area: article2;
+}
+
+#article3{
+    grid-area: article3;
+}
+
+#article4{
+    grid-area: article4;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto' , "sans-serif";
+}
+
+ul{
+    list-style-type: none;
+}
+
+head{
+    font-family: 'Roboto', "sans-serif";
+}
+
+nav{
+    display: inline-block;margin: 65px;
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+hi{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Roboto' , "sans-serif"; 
+}
